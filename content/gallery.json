@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "title": "Winter Flourish No. 3",
+      "medium": "India ink on cotton rag",
+      "category": "flourish",
+      "image": "https://picsum.photos/seed/inkwork1/1200/900",
+      "alt": "Placeholder calligraphy piece one"
+    },
+    {
+      "title": "Quiet Margin",
+      "medium": "Monoline script study",
+      "category": "minimal",
+      "image": "https://picsum.photos/seed/inkwork2/1200/900",
+      "alt": "Placeholder calligraphy piece two"
+    },
+    {
+      "title": "Ash & Gold",
+      "medium": "Mixed media lettering",
+      "category": "experimental",
+      "image": "https://picsum.photos/seed/inkwork3/1200/900",
+      "alt": "Placeholder calligraphy piece three"
+    },
+    {
+      "title": "Harvest Script",
+      "medium": "Commissioned wedding suite",
+      "category": "flourish",
+      "image": "https://picsum.photos/seed/inkwork4/1200/900",
+      "alt": "Placeholder calligraphy piece four"
+    },
+    {
+      "title": "Field Notes",
+      "medium": "Editorial title lettering",
+      "category": "minimal",
+      "image": "https://picsum.photos/seed/inkwork5/1200/900",
+      "alt": "Placeholder calligraphy piece five"
+    },
+    {
+      "title": "Stone Echo",
+      "medium": "Large brush texture series",
+      "category": "experimental",
+      "image": "https://picsum.photos/seed/inkwork6/1200/900",
+      "alt": "Placeholder calligraphy piece six"
+    }
+  ]
+}

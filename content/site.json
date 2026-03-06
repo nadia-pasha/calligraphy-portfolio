@@ -1,0 +1,40 @@
+{
+  "siteTitle": "Ink & Grain | Calligraphy Portfolio",
+  "logoText": "Ink & Grain",
+  "heroEyebrow": "Traditional Tools. Modern Composition.",
+  "heroHeading": "Calligraphy for Prints, Commissions, and Editorial Work",
+  "heroCopy": "A living portfolio for handcrafted letterforms, brush experiments, and commissioned pieces. Replace the placeholders below with your latest work and this site is ready to publish on GitHub Pages.",
+  "primaryButtonText": "View Portfolio",
+  "primaryButtonLink": "#work",
+  "secondaryButtonText": "Commission Inquiry",
+  "secondaryButtonLink": "#contact",
+  "workEyebrow": "Portfolio",
+  "workHeading": "Selected Work",
+  "statementEyebrow": "Artist Statement",
+  "statementHeading": "Writing With Breath, Pressure, and Pace",
+  "statementParagraph1": "I treat each line as a record of movement. My work blends historical calligraphic forms with contemporary spacing, creating pieces that feel both archival and immediate. I am especially drawn to the emotional weight of negative space.",
+  "statementParagraph2": "Most pieces are made with broad-edge nibs, walnut ink, and handmade paper. The final compositions are then adapted for editorial layouts, gallery prints, and private commissions.",
+  "exhibitionsHeading": "Exhibitions & Features",
+  "exhibitions": [
+    "2026 - Placeholder Gallery Showcase",
+    "2025 - Guest Feature in Letter Arts Journal",
+    "2024 - Regional Craft Residency"
+  ],
+  "commissionHeading": "Commission Focus",
+  "commissionText": "Brand lettering, invitations, editorial headers, and one-off wall pieces.",
+  "aboutEyebrow": "About the Artist",
+  "aboutHeading": "Crafted by Hand in the Studio",
+  "aboutBio": "Add your bio here: training, influences, tools, process, and where your work has appeared. This section is designed to hold both short and long form artist stories.",
+  "facts": [
+    { "label": "Studio", "value": "Portland, OR" },
+    { "label": "Primary Tools", "value": "Broad Nib, Brush, Walnut Ink" },
+    { "label": "Available For", "value": "Commissions & Collaborations" }
+  ],
+  "contactEyebrow": "Contact",
+  "contactHeading": "Let's Make Something Lasting",
+  "contactIntro": "For commission requests or licensing inquiries, reach out below.",
+  "contactEmail": "artist@example.com",
+  "instagramUrl": "https://instagram.com",
+  "behanceUrl": "https://behance.net",
+  "footerStudioName": "Ink & Grain Studio"
+}

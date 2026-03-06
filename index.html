@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Calligraphy portfolio and artist statement.">
+  <title id="siteTitle">Ink & Grain | Calligraphy Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="texture-overlay" aria-hidden="true"></div>
+    <nav class="nav container">
+      <a href="#top" class="logo" id="logoText">Ink & Grain</a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+      <ul class="nav-links">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#statement">Statement</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero container" id="top">
+      <p class="eyebrow reveal" id="heroEyebrow">Traditional Tools. Modern Composition.</p>
+      <h1 class="reveal" id="heroHeading">Calligraphy for Prints, Commissions, and Editorial Work</h1>
+      <p class="hero-copy reveal" id="heroCopy">
+        A living portfolio for handcrafted letterforms, brush experiments, and commissioned pieces.
+        Replace the placeholders below with your latest work and this site is ready to publish on GitHub Pages.
+      </p>
+      <div class="hero-actions reveal">
+        <a class="btn btn-primary" href="#work" id="primaryButton">View Portfolio</a>
+        <a class="btn btn-ghost" href="#contact" id="secondaryButton">Commission Inquiry</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="work" class="section container">
+      <div class="section-heading reveal">
+        <p class="eyebrow" id="workEyebrow">Portfolio</p>
+        <h2 id="workHeading">Selected Work</h2>
+      </div>
+      <div class="filter-bar reveal" role="tablist" aria-label="Filter artwork">
+        <button class="filter-btn active" data-filter="all" role="tab">All</button>
+        <button class="filter-btn" data-filter="flourish" role="tab">Flourish</button>
+        <button class="filter-btn" data-filter="minimal" role="tab">Minimal</button>
+        <button class="filter-btn" data-filter="experimental" role="tab">Experimental</button>
+      </div>
+      <div class="gallery" id="galleryGrid"></div>
+    </section>
+
+    <section id="statement" class="section section-split">
+      <div class="container split-layout">
+        <div class="split-panel reveal">
+          <p class="eyebrow" id="statementEyebrow">Artist Statement</p>
+          <h2 id="statementHeading">Writing With Breath, Pressure, and Pace</h2>
+          <p id="statementParagraph1">
+            I treat each line as a record of movement. My work blends historical calligraphic forms with contemporary spacing,
+            creating pieces that feel both archival and immediate. I am especially drawn to the emotional weight of negative space.
+          </p>
+          <p id="statementParagraph2">
+            Most pieces are made with broad-edge nibs, walnut ink, and handmade paper. The final compositions are then adapted for
+            editorial layouts, gallery prints, and private commissions.
+          </p>
+        </div>
+        <aside class="split-panel note reveal">
+          <h3 id="exhibitionsHeading">Exhibitions & Features</h3>
+          <ul id="exhibitionsList">
+            <li>2026 - Placeholder Gallery Showcase</li>
+            <li>2025 - Guest Feature in Letter Arts Journal</li>
+            <li>2024 - Regional Craft Residency</li>
+          </ul>
+          <h3 id="commissionHeading">Commission Focus</h3>
+          <p id="commissionText">Brand lettering, invitations, editorial headers, and one-off wall pieces.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="about-grid">
+        <div class="reveal">
+          <p class="eyebrow" id="aboutEyebrow">About the Artist</p>
+          <h2 id="aboutHeading">Crafted by Hand in the Studio</h2>
+          <p id="aboutBio">
+            Add your bio here: training, influences, tools, process, and where your work has appeared.
+            This section is designed to hold both short and long form artist stories.
+          </p>
+        </div>
+        <div class="fact-list reveal" id="factList">
+          <div><span>Studio</span><strong>Portland, OR</strong></div>
+          <div><span>Primary Tools</span><strong>Broad Nib, Brush, Walnut Ink</strong></div>
+          <div><span>Available For</span><strong>Commissions & Collaborations</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-contact">
+      <div class="container contact-wrap reveal">
+        <p class="eyebrow" id="contactEyebrow">Contact</p>
+        <h2 id="contactHeading">Let's Make Something Lasting</h2>
+        <p id="contactIntro">For commission requests or licensing inquiries, reach out below.</p>
+        <div class="contact-links">
+          <a href="mailto:artist@example.com" id="contactEmail">artist@example.com</a>
+          <a href="https://instagram.com" target="_blank" rel="noreferrer noopener" id="instagramLink">Instagram</a>
+          <a href="https://behance.net" target="_blank" rel="noreferrer noopener" id="behanceLink">Behance</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> <span id="footerStudioName">Ink & Grain Studio</span>. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
