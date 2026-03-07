@@ -113,9 +113,47 @@ a {
 
 .menu-toggle {
   display: none;
-  border: 1px solid var(--line);
-  background: var(--paper);
-  padding: 0.55rem 0.8rem;
+  width: 2.85rem;
+  height: 2.85rem;
+  border: 1px solid rgba(215, 202, 184, 0.75);
+  border-radius: 999px;
+  background: rgba(249, 245, 237, 0.72);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  align-items: center;
+  justify-content: center;
+  gap: 0.24rem;
+  flex-direction: column;
+  padding: 0;
+  cursor: pointer;
+  transition: transform 220ms ease, box-shadow 220ms ease, background-color 220ms ease;
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus-visible {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(44, 30, 18, 0.14);
+  background: rgba(249, 245, 237, 0.86);
+}
+
+.menu-line {
+  width: 1.05rem;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--ink);
+  transition: transform 220ms ease, opacity 220ms ease;
+}
+
+.menu-toggle[aria-expanded="true"] .menu-line:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+
+.menu-toggle[aria-expanded="true"] .menu-line:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle[aria-expanded="true"] .menu-line:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
 }
 
 .nav-links {
@@ -675,23 +713,48 @@ a {
 
   .nav-links {
     position: absolute;
-    top: calc(100% + 0.35rem);
-    right: 0.9rem;
+    top: calc(100% + 0.55rem);
+    right: 0.5rem;
+    min-width: 12.5rem;
     flex-direction: column;
-    background: var(--paper);
-    border: 1px solid var(--line);
-    box-shadow: var(--shadow);
-    padding: 0.8rem;
+    background: rgba(249, 245, 237, 0.92);
+    -webkit-backdrop-filter: blur(14px) saturate(130%);
+    backdrop-filter: blur(14px) saturate(130%);
+    border: 1px solid rgba(215, 202, 184, 0.78);
+    border-radius: 1rem;
+    box-shadow: 0 18px 34px rgba(44, 30, 18, 0.18);
+    padding: 0.55rem;
     opacity: 0;
     pointer-events: none;
-    transform: translateY(-8px);
-    transition: opacity 220ms ease, transform 220ms ease;
+    transform: translateY(-8px) scale(0.98);
+    transform-origin: top right;
+    transition: opacity 180ms ease, transform 180ms ease;
+  }
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-links a {
+    display: block;
+    width: 100%;
+    border-radius: 0.65rem;
+    padding: 0.55rem 0.7rem;
+  }
+
+  .nav-links a:hover,
+  .nav-links a:focus-visible {
+    background: rgba(158, 108, 56, 0.12);
+  }
+
+  .nav-links a::after {
+    display: none;
   }
 
   .nav-links.open {
     opacity: 1;
     pointer-events: auto;
-    transform: translateY(0);
+    transform: translateY(0) scale(1);
   }
 }
 
