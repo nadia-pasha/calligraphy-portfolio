@@ -1,46 +1,94 @@
 {
   "items": [
     {
-      "title": "Winter Flourish No. 3",
-      "medium": "India ink on cotton rag",
-      "category": "flourish",
-      "image": "https://picsum.photos/seed/inkwork1/1200/900",
-      "alt": "Placeholder calligraphy piece one"
-    },
-    {
-      "title": "Quiet Margin",
-      "medium": "Monoline script study",
-      "category": "minimal",
-      "image": "https://picsum.photos/seed/inkwork2/1200/900",
-      "alt": "Placeholder calligraphy piece two"
-    },
-    {
-      "title": "Ash & Gold",
-      "medium": "Mixed media lettering",
+      "slug": "picasso",
+      "title": "Picasso",
+      "medium": "Arabic calligraphy with abstract composition",
       "category": "experimental",
-      "image": "https://picsum.photos/seed/inkwork3/1200/900",
-      "alt": "Placeholder calligraphy piece three"
+      "status": "available",
+      "year": "2025",
+      "dimensions": "24 x 18 in",
+      "story": "A layered composition built around expressive movement and tonal contrast, balancing script legibility with abstract tension.",
+      "image": "assets/uploads/np-picasso.jpg",
+      "imageWebp": "assets/uploads/np-picasso.webp",
+      "imageAvif": "assets/uploads/np-picasso.avif",
+      "alt": "Abstract Arabic calligraphy artwork titled Picasso",
+      "focalPoint": "50% 42%"
     },
     {
-      "title": "Harvest Script",
-      "medium": "Commissioned wedding suite",
-      "category": "flourish",
-      "image": "https://picsum.photos/seed/inkwork4/1200/900",
-      "alt": "Placeholder calligraphy piece four"
-    },
-    {
-      "title": "Field Notes",
-      "medium": "Editorial title lettering",
+      "slug": "picasso-2",
+      "title": "Picasso 2",
+      "medium": "Arabic calligraphy study",
       "category": "minimal",
-      "image": "https://picsum.photos/seed/inkwork5/1200/900",
-      "alt": "Placeholder calligraphy piece five"
+      "status": "sold",
+      "year": "2024",
+      "dimensions": "14 x 11 in",
+      "story": "A minimalist calligraphic study focused on spacing, gesture economy, and controlled letter rhythm.",
+      "image": "assets/uploads/np-picasso-2.jpg",
+      "imageWebp": "assets/uploads/np-picasso-2.webp",
+      "imageAvif": "assets/uploads/np-picasso-2.avif",
+      "alt": "Arabic calligraphy artwork titled Picasso 2",
+      "focalPoint": "50% 48%"
     },
     {
-      "title": "Stone Echo",
-      "medium": "Large brush texture series",
+      "slug": "read",
+      "title": "Read",
+      "medium": "Traditional script with contemporary layout",
+      "category": "flourish",
+      "status": "available",
+      "year": "2025",
+      "dimensions": "30 x 24 in",
+      "story": "This piece explores a dialogue between historical script structure and contemporary compositional breath.",
+      "image": "assets/uploads/np-read.jpg",
+      "imageWebp": "assets/uploads/np-read.webp",
+      "imageAvif": "assets/uploads/np-read.avif",
+      "alt": "Arabic calligraphy artwork titled Read",
+      "focalPoint": "50% 40%"
+    },
+    {
+      "slug": "solace",
+      "title": "Solace",
+      "medium": "Qalam on treated paper",
+      "category": "flourish",
+      "status": "commissioned",
+      "year": "2025",
+      "dimensions": "28 x 20 in",
+      "story": "A contemplative composition where script cadence and negative space are used to evoke calm and reflection.",
+      "image": "assets/uploads/np-solace.jpg",
+      "imageWebp": "assets/uploads/np-solace.webp",
+      "imageAvif": "assets/uploads/np-solace.avif",
+      "alt": "Arabic calligraphy artwork titled Solace",
+      "focalPoint": "50% 35%"
+    },
+    {
+      "slug": "tree-of-life",
+      "title": "Tree of Life",
+      "medium": "Ottoman-inspired script composition",
       "category": "experimental",
-      "image": "https://picsum.photos/seed/inkwork6/1200/900",
-      "alt": "Placeholder calligraphy piece six"
+      "status": "available",
+      "year": "2026",
+      "dimensions": "36 x 24 in",
+      "story": "Vertical movement and layered line density reflect growth, ancestry, and continuity across generations.",
+      "image": "assets/uploads/np-tree-of-life.jpg",
+      "imageWebp": "assets/uploads/np-tree-of-life.webp",
+      "imageAvif": "assets/uploads/np-tree-of-life.avif",
+      "alt": "Arabic calligraphy artwork titled Tree of Life",
+      "focalPoint": "50% 28%"
+    },
+    {
+      "slug": "art-piece-dervaish",
+      "title": "Art Piece Dervaish",
+      "medium": "Calligraphic abstraction",
+      "category": "minimal",
+      "status": "sold",
+      "year": "2024",
+      "dimensions": "22 x 16 in",
+      "story": "Inspired by rotational movement and meditative repetition, this work focuses on controlled abstraction.",
+      "image": "assets/uploads/np-art-piece-dervaish.jpg",
+      "imageWebp": "assets/uploads/np-art-piece-dervaish.webp",
+      "imageAvif": "assets/uploads/np-art-piece-dervaish.avif",
+      "alt": "Arabic calligraphy artwork titled Art Piece Dervaish",
+      "focalPoint": "50% 32%"
     }
   ]
 }

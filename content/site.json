@@ -1,40 +1,97 @@
 {
-  "siteTitle": "Ink & Grain | Calligraphy Portfolio",
-  "logoText": "Ink & Grain",
-  "heroEyebrow": "Traditional Tools. Modern Composition.",
-  "heroHeading": "Calligraphy for Prints, Commissions, and Editorial Work",
-  "heroCopy": "A living portfolio for handcrafted letterforms, brush experiments, and commissioned pieces. Replace the placeholders below with your latest work and this site is ready to publish on GitHub Pages.",
+  "siteTitle": "Nadia Pasha | Arabic Calligraphy Portfolio",
+  "metaDescription": "Arabic calligraphy portfolio of Nadia Pasha featuring Ottoman Riq'a and Diwani inspired works, artist statement, process, and commission inquiries.",
+  "ogImage": "assets/uploads/np-picasso.jpg",
+  "logoText": "Nadia Pasha",
+  "heroEyebrow": "Traditional Ottoman Scripts. Contemporary Abstract Energy.",
+  "heroHeading": "Arabic Calligraphy by Nadia Pasha",
+  "heroCopy": "Explore original works created with the traditional qalam on handmade, dyed, treated, aged, and burnished paper. Each piece balances classical discipline with modern abstract expression.",
   "primaryButtonText": "View Portfolio",
   "primaryButtonLink": "#work",
-  "secondaryButtonText": "Commission Inquiry",
+  "secondaryButtonText": "Commission Nadia",
   "secondaryButtonLink": "#contact",
   "workEyebrow": "Portfolio",
-  "workHeading": "Selected Work",
+  "workHeading": "Selected Works",
   "statementEyebrow": "Artist Statement",
-  "statementHeading": "Writing With Breath, Pressure, and Pace",
-  "statementParagraph1": "I treat each line as a record of movement. My work blends historical calligraphic forms with contemporary spacing, creating pieces that feel both archival and immediate. I am especially drawn to the emotional weight of negative space.",
-  "statementParagraph2": "Most pieces are made with broad-edge nibs, walnut ink, and handmade paper. The final compositions are then adapted for editorial layouts, gallery prints, and private commissions.",
-  "exhibitionsHeading": "Exhibitions & Features",
+  "statementHeading": "Tradition in Dialogue With Contemporary Form",
+  "statementParagraph1": "My artistic process is fueled by the challenge of creativity within the disciplined structure of Arabic and Islamic calligraphy. Holding a certificate of mastery in the Ottoman traditions of Riq'a and Diwani scripts, I work to preserve the historical integrity of each letter while shaping a fresh visual language.",
+  "statementParagraph2": "Before using the qalam on paper, I develop ideas digitally to explore background, structure, and composition. I then spend hours refining letterforms and rhythm by hand. Through this process, I aim to bridge traditional artistry and contemporary innovation, inviting viewers into a visual dialogue that transcends time and culture.",
+  "exhibitionsHeading": "Training & Highlights",
   "exhibitions": [
-    "2026 - Placeholder Gallery Showcase",
-    "2025 - Guest Feature in Letter Arts Journal",
-    "2024 - Regional Craft Residency"
+    "Diploma to teach Riq'a and Diwani, Turkiye",
+    "Two decades volunteering in the Art Literacy program, Beaverton School District",
+    "Practice rooted in Ottoman calligraphic traditions"
   ],
   "commissionHeading": "Commission Focus",
-  "commissionText": "Brand lettering, invitations, editorial headers, and one-off wall pieces.",
+  "commissionText": "Original Arabic calligraphy artworks, custom calligraphic compositions, and abstract-script pieces for private and public spaces.",
   "aboutEyebrow": "About the Artist",
-  "aboutHeading": "Crafted by Hand in the Studio",
-  "aboutBio": "Add your bio here: training, influences, tools, process, and where your work has appeared. This section is designed to hold both short and long form artist stories.",
+  "aboutHeading": "Nadia Pasha",
+  "aboutBio": "Art is my passion, and I have always found ways to fuel creativity. I grew up in Saudi Arabia and Pakistan, where rich artistic cultures laid the foundation for my voice as an artist. While abstract art has long been central to my expression, the aesthetic precision of calligraphy drew me deeply. After years of independent study, I pursued formal training in Arabic calligraphy and traveled to Turkiye to complete my diploma in Riq'a and Diwani. I work with traditional tools, infusing ancient scripts with a modern abstract twist.",
   "facts": [
-    { "label": "Studio", "value": "Portland, OR" },
-    { "label": "Primary Tools", "value": "Broad Nib, Brush, Walnut Ink" },
-    { "label": "Available For", "value": "Commissions & Collaborations" }
+    {
+      "label": "Artist",
+      "value": "Nadia Pasha"
+    },
+    {
+      "label": "Scripts",
+      "value": "Riq'a and Diwani"
+    },
+    {
+      "label": "Primary Tool",
+      "value": "Qalam (reed/bamboo pen)"
+    }
+  ],
+  "processEyebrow": "Studio Process",
+  "processHeading": "From Concept Sketch to Qalam on Paper",
+  "processIntro": "Each artwork is developed through iterative composition studies before final hand lettering on prepared paper.",
+  "processSteps": [
+    {
+      "title": "Digital Composition Study",
+      "description": "Initial structure and letter rhythm are explored in Procreate before committing ink to paper.",
+      "image": "assets/uploads/np-read.jpg",
+      "focalPoint": "50% 45%"
+    },
+    {
+      "title": "Qalam and Ink Drafting",
+      "description": "Traditional reed pen control establishes weight, flow, and spacing in the script.",
+      "image": "assets/uploads/np-solace.jpg",
+      "focalPoint": "50% 35%"
+    },
+    {
+      "title": "Final Burnished Presentation",
+      "description": "Finished compositions are refined for exhibition-ready framing and archival display.",
+      "image": "assets/uploads/np-tree-of-life.jpg",
+      "focalPoint": "50% 30%"
+    }
+  ],
+  "trustEyebrow": "Press & Recognition",
+  "trustHeading": "Collected and Featured in Community Arts Spaces",
+  "trustLogos": [
+    "Beaverton Art Literacy Program",
+    "Regional Cultural Showcases",
+    "Private Collection Commissions"
+  ],
+  "testimonials": [
+    {
+      "quote": "Nadia's work carries both discipline and emotion. The piece transformed our living space.",
+      "name": "Private Collector"
+    },
+    {
+      "quote": "The calligraphic composition she created for our event was breathtaking and deeply meaningful.",
+      "name": "Commission Client"
+    }
+  ],
+  "pressQuote": "Nadia Pasha's compositions honor Ottoman script traditions while opening bold contemporary visual conversations.",
+  "pressMentions": [
+    "Featured in regional arts exhibitions",
+    "Commissioned calligraphy for private and community spaces",
+    "Longstanding contributor to arts education in Beaverton"
   ],
   "contactEyebrow": "Contact",
-  "contactHeading": "Let's Make Something Lasting",
-  "contactIntro": "For commission requests or licensing inquiries, reach out below.",
-  "contactEmail": "artist@example.com",
-  "instagramUrl": "https://instagram.com",
+  "contactHeading": "Commissions and Inquiries",
+  "contactIntro": "To discuss original work, commissions, or collaborations, please reach out via email or Instagram.",
+  "contactEmail": "nadia.a.pasha@gmail.com",
+  "instagramUrl": "https://instagram.com/nadiababri",
   "behanceUrl": "https://behance.net",
-  "footerStudioName": "Ink & Grain Studio"
+  "footerStudioName": "Nadia Pasha"
 }
